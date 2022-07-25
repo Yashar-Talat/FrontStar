@@ -2,6 +2,9 @@
 /*    font-size: 2vw;*/
 /*}*/
 
+/*p {*/
+/*    font-size: 2vh;*/
+/*}*/
 p {
-    font-size: 2vh;
+    font-size: 2vmax;
 }

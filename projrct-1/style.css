@@ -1,0 +1,15 @@
+p {
+    color: blue;
+    border: 5px solid black;
+    font-size: 20px;
+}
+.p1 {
+    color: red;
+    border: 5px solid black;
+    font-size: 10px;
+}
+#pid {
+    color: chartreuse;
+    border: 5px solid black;
+    font-size: 30px;
+}

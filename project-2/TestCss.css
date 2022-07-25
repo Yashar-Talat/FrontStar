@@ -1,0 +1,19 @@
+/* div {
+  width: 3000px;
+  height: 20px;
+  background-color: blue;
+} */
+div {
+  width: 900px;
+  height: 800px;
+  background-image: url("../image/ford.jpg");
+  background-size: cover;
+}
+
+body {
+  background-image: url("../image/lamp.jpg");
+  /* background-repeat: no-repeat; */
+  background-repeat: repeat-x;
+  /* background-repeat: repeat-y;
+  background-repeat: repeat; */
+}

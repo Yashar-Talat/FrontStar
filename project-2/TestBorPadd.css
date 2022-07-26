@@ -1,0 +1,28 @@
+p {
+    /*border: 3px solid red;*/
+    padding: 15px;
+    background-color: aqua;
+}
+
+body {
+    background-image: url("../image/lamp.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-attachment: scroll;
+}
+.border {
+    border: 3px dotted red;
+    background-clip: border-box;
+}
+.padding {
+    border: 3px dotted red;
+    background-clip: padding-box;
+}
+.content {
+    border: 3px dotted red;
+    background-clip: content-box;
+}
+.text {
+    border: 3px dotted red;
+    background-clip: border-box ;
+}

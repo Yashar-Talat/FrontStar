@@ -5,6 +5,9 @@
 /*p {*/
 /*    font-size: 2vh;*/
 /*}*/
+/*p {*/
+/*    font-size: 2vmax;*/
+/*}*/
 p {
-    font-size: 2vmax;
+    font-size: 5vmin;
 }

@@ -1,0 +1,35 @@
+/*div {*/
+/*    background-image: url("../image/lamp.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    border: 5px dotted red;*/
+/*    width: 600px;*/
+/*    height: 350px;*/
+/*    background-origin: border-box;*/
+/*}*/
+/*div {*/
+/*    background-image: url("../image/lamp.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    border: 5px dotted red;*/
+/*    width: 600px;*/
+/*    height: 350px;*/
+/*    background-origin: border-box;*/
+/*    !*background-position: center;*!*/
+/*    !*background-position: center top;*!*/
+/*    !*background-position: 20% 40%;*!*/
+/*    background-position: 30px 60px;*/
+/*}*/
+div {
+    background-image: url("../image/lamp.jpg");
+    background-repeat: no-repeat;
+    border: 5px dotted red;
+    width: 600px;
+    height: 350px;
+    /*background-origin: border-box;*/
+    /*background-position: center;*/
+    /*background-position: center top;*/
+    /*background-position: 20% 40%;*/
+    /*background-position: 30px 60px;*/
+    /*background-size: auto;*/
+    /*background-size: cover;*/
+    background-size: contain;
+}

@@ -1,0 +1,30 @@
+div {
+    border-style: solid ;
+    border-color: red;
+    border-width: 5px;
+/*border-bottom-width: 10px;*/
+/*    border-left-width: 10px;*/
+/*    border-right-width: 2px;*/
+/*    border-width: 10px 15px 20px 25px;*/
+    border-radius: 20px;
+    /*border-style: solid ;*/
+    /*border-style: dashed ;*/
+    /*border-style: dot-dash ;*/
+    /*border-style: double ;*/
+    /*border-style: groove ;*/
+    /*border-style: hidden ;*/
+    /*border-style: inset ;*/
+    /*border-style: none ;*/
+    /*border-style: outset ;*/
+    /*border-style: ridge ;*/
+    /*border-style: wave ;*/
+    /*border-style: inherit ;*/
+    /*border-style: revert ;*/
+    /*border-style: initial ;*/
+    /*border-style: unset ;*/
+    /*border-style:dot-dot-dash ;*/
+}
+/*div {*/
+/*    border: 5px solid aqua;*/
+/*    border-radius: 5px 20px;*/
+/*}*/

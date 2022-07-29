@@ -1,0 +1,16 @@
+p {
+  text-indent: 5px;
+  /* letter-spacing:5px; */
+  line-height: 2;
+  /* word-spacing: 5px; */
+  /*white-space:break-spaces;*/
+   /*white-space: nowrap; */
+  text-transform: capitalize;
+  /* text-transform: lowercase; */
+  /* text-transform: uppercase; */
+  /* text-transform: none; */
+  border: 5px solid black;
+  border-radius: 15px;
+  background-color: greenyellow;
+}
+

@@ -1,0 +1,26 @@
+table {
+    border: 2px groove black;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+th,td {
+    border: 2px solid red;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 5px solid black; 
+    /* border-color: blue black red; */
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: chartreuse;
+    /* background-image: url('../image/ford.jpg'); */
+}
+tr:hover {
+    background-color: aqua;
+    cursor: pointer;
+} 

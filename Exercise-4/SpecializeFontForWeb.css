@@ -1,0 +1,12 @@
+p {
+   font-weight: 700;
+   font-size: 20px; 
+   direction: rtl;
+    font-family: IranNastaliq, system-ui;
+}
+@font-face {
+    font-family: 'IranNastaliq';
+    src: url(../Font/IranNastaliq.eot) format('eot');
+    src: url(../Font/IranNastaliq.ttf) format('ttf');
+    src: url(../Font/IranNastaliq.woff) format('woff');
+}

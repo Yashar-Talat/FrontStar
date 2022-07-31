@@ -1,0 +1,17 @@
+/* p {
+    font-style: italic;
+    font-weight: 100px;
+    font-size: medium;
+    flex-direction: row;
+    font-display: unset;
+    font: bold;
+} */
+.serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sansserif {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.monospace{
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,31 @@
+ul {
+    /* list-style-type: armenian; */
+/* list-style-type: circle; */
+/* list-style-type:decimal ; */
+/* list-style-type: decimal-leading-zero; */
+/* list-style-type: disc;
+list-style-type: georgian;
+list-style-type: lower-alpha;
+list-style-type: lower-greek;
+list-style-type: lower-latin;
+list-style-type: lower-roman;
+list-style-type: none; */
+/* list-style-type: square; */
+/* list-style-image: url('../image/lamp.jpg'); */
+/* list-style-position: outside; */
+list-style-position: inside;
+background-color: red;
+border: 2px solid black;
+padding: 20px;
+margin-left: 15px;
+}
+li {
+    color: orange;
+    background-color:black;
+    padding: 5px;
+    margin-left: 10px;
+}
+/* ol {
+list-style-type: upper-alpha;
+} */
+

@@ -1,0 +1,34 @@
+a:link {
+  color: greenyellow;
+}
+a:visited {
+  color: orange;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: blue;
+}
+a {
+  text-decoration: none;
+}
+p {
+  /* cursor: pointer; */
+  /* cursor: auto; */
+/* cursor: cell; */
+/* cursor: col-resize; */
+/* cursor: context-menu; */
+/* cursor: copy; */
+/* cursor: crosshair; */
+/* cursor: e-resize; */
+/* cursor:grab ; */
+/* cursor:ew-resize ; */
+/* cursor: grabbing; */
+/* cursor: help; */
+/* cursor: move; */
+/* cursor: wait; */
+/* cursor: none; */
+/* cursor: progress; */
+cursor: text;
+}

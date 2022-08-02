@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    background-image: url(../image/MenuBar.jpg);
+    background-size: cover;
+}
+
+li {
+    display: inline;
+    padding-left: 100px;
+    font-size: 50px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#Home:hover {
+    color: yellow;
+}
+
+#HTML:hover {
+    color: yellowgreen;
+}
+
+#CSS:hover {
+    color: red;
+}
+
+#JavaScript:hover {
+    color: orange;
+}
+
+#SQL:hover {
+    color: blue;
+}
+
+#Python:hover {
+    color: deepskyblue;
+}
+
+#PHP:hover {
+    color: blueviolet;
+}
+

@@ -1,0 +1,54 @@
+div.div1 {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  /* visibility: hidden; */
+  margin: 10px 20px 5px 10px;
+  padding: 10px 20px;
+  border: 5px solid black;
+  outline: 2px solid red;
+  outline-offset: 4px;
+}
+div.div2 {
+  background-color: chartreuse;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  border: 5px groove black;
+  margin: 10px 20px 5px 10px;
+  padding: 10px 20px;
+  outline: 2px solid red;
+  outline-offset: 4px;
+}
+.div3 {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  border: 5px dotted black;
+  margin: 10px 20px 5px 10px;
+  padding: 10px 20px;
+  outline: 2px solid red;
+  outline-offset: 4px;
+}
+ p {
+    display: inline;
+}
+
+.span1 {
+    background-color: aqua;
+    width: 300px;
+    height: 40px;
+    /* display: inline-block; */
+    /* display: inline; */
+    display: block;
+}
+.span2 {
+    width: 250px;
+    height: 55px;
+    background-color: yellowgreen;
+    /* display: block; */
+    /* display: inline-block; */
+    display: block;
+}

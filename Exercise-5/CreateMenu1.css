@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+ul {
+  width: auto;
+  height: 40px;
+  background-color: black;
+  list-style-type: none;
+  border: 5px solid red;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+li {
+  display: inline;
+  font-size: 30px;
+  padding: 10px;
+  margin-right: 10px;
+  
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: greenyellow;
+}
+
+a:visited {
+  color: white;
+}
+a:hover {
+  color: orange;
+}

@@ -1,3 +1,4 @@
+@import "FormCss.css";
 * {
     margin: 0;
 }
@@ -5,17 +6,17 @@
 ul {
     border: 8px groove red;
     list-style-type: none;
-    text-align: left;
+    text-align: center;
     background-image: url(../image/MenuBar.jpg);
     background-size: cover;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 50px;
+    padding: 24px 575px 25px 0;
 }
 
 li {
     display: inline;
-    padding-left: 100px;
-    font-size: 50px;
+    padding-left: 70px;
+    font-size: 30px;
     padding-bottom: 10px;
 }
 

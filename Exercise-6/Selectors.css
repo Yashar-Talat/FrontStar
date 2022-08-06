@@ -1,0 +1,24 @@
+/* p,h1,h2,h3 {
+    color:blue ;
+} */
+/*First State For Selectors*/
+
+/* div p {
+    color: greenyellow;
+} */
+/*Second State For Selectors*/
+
+/* span>p {
+    color: red;
+} */
+/*Third State For Selectors*/
+
+/* div+p {
+    color: red;
+} */
+/*Forth State For Selectors*/
+
+div~p {
+    color: blue;
+}
+/*Fivth State For Selectors*/

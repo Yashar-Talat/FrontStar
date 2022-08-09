@@ -11,3 +11,7 @@
 /* [title~="yashar"] {
     border: 10px solid red;
 } */
+
+[class|="top"] {
+    background-color: aqua;
+}

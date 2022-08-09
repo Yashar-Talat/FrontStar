@@ -1,29 +1,31 @@
-/* a[target] {
+a[target] {
     background-color: red;
-} */
-/* a[target="_blank"] {
+}
+a[target="_blank"] {
     background-color: aqua;
-} */
+}
 /* a[target="_top"] {
     background-color: aqua;
 } */
 
-/* [title~="yashar"] {
+[title~="yashar"] {
     border: 10px solid red;
-} */
+}
 
-/* [class|="top"] {
+[class|="top"] {
     background-color: aqua;
-} */
+}
 
 /* [class^="top"] {
     background-color: chartreuse;
 } */
 
-/* [class$="test"] {
+[class$="test"] {
+    background-color: orange;
+}
+
+/* [class*="te"] {
     background-color: aqua;
 } */
 
-[class*="te"] {
-    background-color: aqua;
-}
+

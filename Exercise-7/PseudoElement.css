@@ -1,0 +1,30 @@
+p::first-line{
+    color: blue;
+}
+p::first-letter{
+    font-size: 50px;
+}
+p::before{
+    content:'Yashar';
+}
+h5::after {
+    content: url(../image/lamp.jpg);
+}
+
+a {
+    text-decoration: none;
+}
+/* a::after{
+    content: '--';
+} */
+a:hover::after {
+    content: '--->>>';
+}a:visited{
+    color: greenyellow;
+}
+a:hover{
+    color: red;
+}
+a:link{
+    color: blue;
+}

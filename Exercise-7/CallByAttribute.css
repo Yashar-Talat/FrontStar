@@ -16,6 +16,10 @@
     background-color: aqua;
 } */
 
-[class^="top"] {
+/* [class^="top"] {
     background-color: chartreuse;
+} */
+
+[class$="test"] {
+    background-color: aqua;
 }

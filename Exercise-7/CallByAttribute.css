@@ -1,0 +1,13 @@
+/* a[target] {
+    background-color: red;
+} */
+/* a[target="_blank"] {
+    background-color: aqua;
+} */
+/* a[target="_top"] {
+    background-color: aqua;
+} */
+
+/* [title~="yashar"] {
+    border: 10px solid red;
+} */

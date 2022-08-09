@@ -1,0 +1,20 @@
+input:checked{
+    height: 100px;
+    width: 200px;
+}
+
+input[type=text]:disabled {
+    background-color: red;
+}
+p:empty {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+p:first-child{
+    background-color: yellow;
+}
+ul>:first-child{
+    color: red;
+    background-color: black;
+}

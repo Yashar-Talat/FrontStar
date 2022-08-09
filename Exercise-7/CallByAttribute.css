@@ -12,6 +12,10 @@
     border: 10px solid red;
 } */
 
-[class|="top"] {
+/* [class|="top"] {
     background-color: aqua;
+} */
+
+[class^="top"] {
+    background-color: chartreuse;
 }

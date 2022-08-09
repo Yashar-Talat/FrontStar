@@ -20,6 +20,10 @@
     background-color: chartreuse;
 } */
 
-[class$="test"] {
+/* [class$="test"] {
+    background-color: aqua;
+} */
+
+[class*="te"] {
     background-color: aqua;
 }

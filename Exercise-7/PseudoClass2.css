@@ -1,0 +1,22 @@
+/* p:first-child {
+    background-color: greenyellow;
+}
+p:last-child {
+    background-color: red;
+} */
+p { 
+    color: aqua;
+}
+/*
+p:nth-child(2) {
+    color: black;
+}
+p:nth-child(4) {
+    background-color: red;
+}
+p:nth-child(even){
+    background-color: yellow;
+} */
+p:nth-child(3n+1){
+    background-color: red;
+}

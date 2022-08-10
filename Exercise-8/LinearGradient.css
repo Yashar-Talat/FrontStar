@@ -1,0 +1,23 @@
+/* body {
+    background-color: greenyellow;
+    background-image: linear-gradient(greenyellow,black);
+} */
+
+div {
+  height: 300px;
+  /* background-image: linear-gradient(to right , red , yellow); */
+  /* background-image: linear-gradient(to top left, red,white); */
+  /* background-image: linear-gradient(180deg, red,yellow); */
+  /* background-image: linear-gradient(red,blue,yellow 50%); */
+  background-image: repeating-radial-gradient(circle, red, yellow 25%);
+}
+
+div.div1 {
+  background-image: repeating-linear-gradient(red, yellow, rgb(30, 40, 60));
+}
+div.div2 {
+  background-image: radial-gradient(circle, black, yellow, red 50%);
+}
+div.div3 {
+  background-image: linear-gradient(to bottom left, red, white);
+}

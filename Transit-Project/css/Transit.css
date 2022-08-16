@@ -27,12 +27,57 @@ a {
   transition: color 0.2s ease-in-out;
 }
 .nav ul li a:hover {
- color: #ffffff;
+  color: #ffffff;
 }
 .top-menu {
-    padding: 40px;
+  padding: 40px;
 }
 
 .header {
-  background-color: #444;
+  background-image: url(../image/dark_tint.png),
+    url(../image/bokeh_car_lights_bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.btn-blue {
+  background-color: #3cadd4;
+  color: #ffffff !important;
+}
+
+.btn-gray {
+  background-color: #fff;
+  color: #444 !important;
+}
+
+.btn-big {
+  font-size: 20px;
+  padding: 17px 35px;
+}
+.btn-dark {
+  background-color: #383b43;
+  color: #ffffff !important;
+}
+.banner-content {
+  text-align: center;
+  color: #ffffff;
+  padding: 150px 0;
+}
+.banner-content h2 {
+  font-size: 60px;
+  line-height: 130px;
+}
+.banner-content p {
+  font-size: 22px;
+  margin-bottom: 50px;
 }

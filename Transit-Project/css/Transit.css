@@ -96,3 +96,31 @@ a {
   font-size: 22px;
   margin-bottom: 50px;
 }
+
+.services {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+  border-top: 1px solid rgba(144, 144, 144, 0.25);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.service-header {
+  margin-bottom: 50px;
+}
+
+.service-header h2 {
+  font-size: 42px;
+  color: #474747;
+  margin-bottom: 12px;
+}
+.service-header p {
+  font-size: 22px;
+  color: #858585;
+}
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnJASON</title>
+</head>
+<body>
+    <script>
+     var person = {
+       name : "Yashar",
+       family : "Talat",
+       age : 19,
+       fullname : function() {
+        return this.name + " " + this.family;
+       }
+     };
+    //  console.log(person.name);
+    // console.log(person.family);
+    // console.log(person.age);
+    console.log(person.fullname());
+    </script>
+</body>
+</html>

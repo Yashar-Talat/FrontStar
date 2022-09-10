@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>try-catch</title>
+</head>
+
+<body>
+    <p>Please enter number between 7 till 15 :</p>
+    <input type="text" id="demo">
+    <button type="button" onclick="myfunction()">Send Number</button>
+    <p id="p1"></p>
+
+    <script>
+      function myfunction(){
+        var x,message;
+        x = document.getElementById("demo").value;
+        message = document.getElementById("p1");
+        message.innerHTML = "";
+
+        try {
+            if(x=="") throw "Field Empty!!";
+            if(isNaN(x)) throw "This is not Number!";
+            x = Number(x);
+
+            if(x < 7) throw "Number is too Smaller";
+            if(x > 15) throw "Number is too biggger";
+        } catch (error) {
+            message.innerHTML = "Error :" + error;
+        }
+        finally {
+            document.getElementById("demo").value = "";
+        }
+    }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

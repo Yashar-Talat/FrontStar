@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructors</title>
+</head>
+<body>
+
+    <script>
+     let person = {name:"yashar",family:"talat",age:19};
+    //  console.log(person);
+    function Person(name,family,age) {
+        this.name = name;
+        this.family = family;
+        this.age = age;
+        this.fullname = function() {
+            return this.name + this.family;
+        }
+    }
+
+    var yashar = new Person("Yashar","Talat","19");
+    // console.log(yashar);
+
+    var people = [];
+    people.push(new Person("Amin","Talat","21"));
+    people.push(new Person("Amir","Talat","8"));
+    people.push(new Person("Poya","Armand","20"));
+    console.log(people);
+
+
+
+
+
+
+    </script>
+    
+
+
+
+</body>
+</html>

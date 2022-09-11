@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function-Types</title>
+</head>
+<body>
+<script>
+    function myfunction() {
+        let x = 10;
+        let y = 20;
+        let c = x * y;
+        alert(c);
+    }
+    myfunction();
+
+    let x1 = function(a,b) {
+      return a + b;
+    };
+    let p = x1(4,5);
+    console.log(p);
+
+    let my = new Function("a","b","return a + b");
+    let x2 = my(4,15);
+    console.log(x2);
+
+    (function(){
+        alert("Loaded.......");
+    })();
+
+    function sum(a,b){
+      return a + b;
+    }
+    let c = sum(15,20) + 10;
+    console.log(c.toString() + "5");
+
+    // function sum(a,b) => a*b;
+
+    var sum = (a,b) => a*b;
+    alert(sum(5,6));
+
+</script>
+    
+</body>
+</html>

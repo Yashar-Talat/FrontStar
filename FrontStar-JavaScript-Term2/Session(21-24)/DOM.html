@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work-With-DOM</title>
+</head>
+
+<body>
+
+    <form action="" id="form">
+        FirstName : <input type="text" name="fname" value="Yashar"><br>
+        LastName : <input type="text" name="lname" value="Talat"><br>
+        <input type="submit"><br>
+    </form>
+    
+    <button type="button" onclick="myfunction()">Try-Button</button>
+    <p id="demo"></p>
+
+    <script>
+        function myfunction() {
+            var x = document.forms["form"];
+            var text = "";
+            for (var i = 0; i < x.length; i++) {
+                text += x.elements[i].value + "<br>";
+            }
+            document.getElementById("demo").innerHTML = text;
+        }
+
+    </script>
+
+</body>
+
+</html>

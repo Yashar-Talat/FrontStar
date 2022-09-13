@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimationJS</title>
+    <style>
+        .container {
+            width: 500px;
+            height: 500px;
+            background-color: aqua;
+            position: relative;
+        }
+
+        .animation {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="Move()">Click To move object</button>
+    <div class="container">
+        <div class="animation"></div>
+    </div>
+
+    <script>
+        function Move() {
+            var elem = document.getElementsByClassName("animation")[0];
+            var posit = 0;
+            var id = setInterval(frame, 5);
+            function frame() {
+                if (posit == 450) {
+                    clearInterval(id);
+                } else
+                    posit++;
+                elem.style.top = posit + "px";
+                elem.style.left = posit + "px";
+            }
+
+
+
+        }
+
+
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>

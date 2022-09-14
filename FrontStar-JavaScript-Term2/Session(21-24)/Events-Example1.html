@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events-Example1</title>
+</head>
+<body>
+<button onclick="this.innerHTML = 'Yashar Talat'">Click on me!</button>
+
+<h1 onclick="changeText(this)">Click on Text!</h1>
+
+<button  onclick="displayDate()">Click to show Date!</button>
+<p id="TextDate"></p>
+
+Name : <input type="text" name="fname" id="fname" onchange="myfunction()"> 
+
+<div onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" style="background-color:aqua ; width: 100px; height: 100px; 
+padding:20px;" >
+Bring Mouse on me!!!
+</div>
+
+    <script>
+        function changeText(id) {
+            id.innerHTML = "Session of learning JavaScript";
+        }
+        function displayDate() {
+            document.getElementById("TextDate").innerHTML = Date();
+        }
+        function myfunction() {
+            let element = document.getElementById("fname");
+            element.value = element.value.toUpperCase();
+        }
+        function MouseOver(obj) {
+            obj.innerHTML = "Thanks for come!";
+        }
+        function MouseOut(obj) {
+            obj.innerHTML = "Thanks for exit!!";
+        }
+
+
+
+
+    </script>
+    
+</body>
+</html>

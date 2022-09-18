@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddEventListener</title>
+</head>
+<body>
+    <button id="btn" >Click!</button>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <script>
+        // document.getElementById("btn").addEventListener("click",function() {
+        //    alert("Hi dear welcome!");
+        // });
+
+        let x = document.getElementById("btn");
+        x.addEventListener("mouseover",Mover);
+        x.addEventListener("mouseout", Mout);
+        x.addEventListener("click",mClick);
+
+        function Mover() {
+            document.getElementById("p1").innerHTML += "Mouse Come! <br>"; 
+        }
+        function Mout() {
+            document.getElementById("p1").innerHTML += "Mouse Out! <br>";
+        }
+        function mClick() {
+            document.getElementById("p1").innerHTML += "You click Mouse <br>";
+        }
+
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>

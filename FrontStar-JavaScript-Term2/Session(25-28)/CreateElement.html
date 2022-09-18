@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreateElement</title>
+</head>
+<body>
+    <div id="div-1">
+        <p id="p1">This is First p</p>
+        <p id="p2">This is Second p</p>
+    </div>
+
+    <script>
+
+        // let paragraph = document.createElement("p");
+        // let text = document.createTextNode("This is create by JS");
+        // paragraph.appendChild(text);
+
+        // let element = document.getElementById("div-1");
+        // let ChildElem = document.getElementById("p2");
+
+        // element.insertBefore(paragraph,ChildElem);
+
+        //Remove Element-------------@--------------
+        let element = document.getElementById("div-1");
+        let ChildElem = document.getElementById("p2");
+        // element.removeChild(ChildElem);
+        let para = document.createElement("p");
+        let text = document.createTextNode("This is new paragraph");
+        para.appendChild(text);
+
+        element.replaceChild(para,ChildElem);
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

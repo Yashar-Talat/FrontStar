@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name":"Yashar",
+        "family":"Talat",
+        "age":19
+    },
+    {
+        "id": 2,
+        "name":"Amin",
+        "family":"Talat",
+        "age":21
+    },
+    {
+        "id": 3,
+        "name":"Karim",
+        "family":"Talat",
+        "age":55
+    }
+]

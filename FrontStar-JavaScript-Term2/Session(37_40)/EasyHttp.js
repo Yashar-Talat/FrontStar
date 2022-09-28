@@ -20,4 +20,20 @@ class EasyHTTP {
     }
     this.http.send();
     }
+//Make http request by POST
+   post(url,data,callback) {
+    this.http.open("POST",url,true);
+    this.http.setRequestHeader('Content-type','application/json');
+    this.http.onload = () => {
+        callback(this.http.responseText);
+    }
+    this.http.send(JSON.stringify(data));
+   }
+
+
 }
+
+
+
+
+

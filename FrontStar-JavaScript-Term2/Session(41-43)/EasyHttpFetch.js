@@ -9,7 +9,7 @@ class EasyHttpFetch {
             }).catch((err) => {
                 console.log(err);
             })
-        })
+        })**
     }
     post(url,data) {
         return new Promise((resolve,reject)=>{
